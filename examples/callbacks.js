@@ -16,4 +16,4 @@ $$.get('http://foo.com/bar.json', function(data){
   assert(data.status === 'ok', "the callback receives the data");
 });
 
-assert(!callbackCalled, "callback doesn't exectute immediately");
+assert(!callbackCalled, "callback doesn't execute immediately");
